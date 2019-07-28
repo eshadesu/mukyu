@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mukyu~</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta property="og:title" content="Mukyu~"/>
+<style>
+body{background-color:#000}#heart,#shade{position:fixed;width:300px;height:300px;top:calc(50% - 150px);left:calc(50% - 150px);text-align:center}#heart::after,#heart::before,#shade::after,#shade::before{content:'';position:absolute;top:40px;width:150px;height:240px;background:red;border-radius:150px 150px 0 0;transform:rotate(-45deg);transform-origin:0 100%}#heart::after,#shade::after{left:0;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}#shade{transform:scale(1.15);opacity:.5;filter:blur(5px)}</style>
+</head>
+<body>
+<span id="shade"></span>
+<span id="heart"></span>
+</body>
+</html>
